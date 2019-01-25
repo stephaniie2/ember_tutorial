@@ -1,4 +1,4 @@
-window.EmberENV={}
+window.EmberENV={FEATURES:{},EXTEND_PROTOTYPES:{Date:!1}}
 var loader,define,requireModule,require,requirejs,runningTests=!1
 function createDeprecatedModule(e){define(e,["exports","ember-resolver/resolver","ember"],function(t,r,n){n.default.deprecate("Usage of `"+e+"` module is deprecated, please update to `ember-resolver`.",!1,{id:"ember-resolver.legacy-shims",until:"3.0.0"}),t.default=r.default})}(function(e){"use strict"
 function t(){var e=Object.create(null)
