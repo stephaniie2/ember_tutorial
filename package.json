@@ -58,7 +58,6 @@
   },
   "dependencies": {},
   "ember-addon": {
-    "configPath": "tests/dummy/config",
     "demoURL": "http://stephaniie2.github.io/ember_tutorial"
   }
 }
