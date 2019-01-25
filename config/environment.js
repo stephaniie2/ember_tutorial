@@ -46,6 +46,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.rootURL = '/ember_tutorial';
     ENV.locationType = 'hash';
+    ENV['ember-cli-mirage'].enabled = true
   }
 
   return ENV;
